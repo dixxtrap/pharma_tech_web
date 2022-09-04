@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 
 import { HeaderComponent } from './header/header.component';
 import { SearchPharmaComponent } from './search-pharma/search-pharma.component';
+import { ButtonPharmaComponent } from './button-pharma/button-pharma.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SearchPharmaComponent,
+    ButtonPharmaComponent,
 
   ],
   imports: [
