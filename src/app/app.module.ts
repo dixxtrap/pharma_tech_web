@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SearchPharmaComponent } from './search-pharma/search-pharma.component';
 import { ButtonPharmaComponent } from './button-pharma/button-pharma.component';
+import { CarouselPharmaComponent } from './carousel-pharma/carousel-pharma.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { ButtonPharmaComponent } from './button-pharma/button-pharma.component';
     HeaderComponent,
     SearchPharmaComponent,
     ButtonPharmaComponent,
+    CarouselPharmaComponent,
 
   ],
   imports: [
