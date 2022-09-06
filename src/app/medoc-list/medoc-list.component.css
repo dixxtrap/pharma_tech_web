@@ -1,0 +1,18 @@
+.research{
+    margin-left: 35%;
+    margin-top: 15px;
+    width: 500px;
+    display: block;
+       
+}
+
+input{
+    width: 500px;
+    height: 40px;
+    line-height: 30px;
+    outline: 0;
+    /* border: 0; */
+    font-size: 1em;
+    border-radius: 20px;
+    margin: 15px;
+}

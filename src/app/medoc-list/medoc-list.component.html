@@ -1,0 +1,6 @@
+<div class="research">
+    <input type="search" placeholder="Search here..." name="search" [(ngModel)]="searchText">
+    <!-- <i class="fa fa-search"></i> -->
+</div>
+
+<app-search-medoc *ngFor="let medoc of medocs | filter:searchText" [medoc]="medoc"></app-search-medoc>

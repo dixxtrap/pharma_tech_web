@@ -1,1 +1,24 @@
-<p>search-medoc works!</p>
+<div class="container">
+    <div class="card_container">
+        <div class="card">
+            <div class="card_content">
+                <img class="card-img-top" [src]="medoc.image" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{medoc.title}}</h5>
+                    <p class="card-text card-desc">{{medoc.description}}</p>
+                    <p class="card-text"><small class="text-muted">{{medoc.category}}</small></p>
+                    <div class="prix">
+                        <p class="card_price">{{medoc.prix | currency: 'EUR'}}
+                         <button class="card_button">View</button>
+                        </p>
+                    
+                </div>
+
+                    
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+</div>

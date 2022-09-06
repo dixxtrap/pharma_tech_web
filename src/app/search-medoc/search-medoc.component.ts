@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Medoc } from '../model/medoc';
 
 @Component({
   selector: 'app-search-medoc',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchMedocComponent implements OnInit {
 
+  @Input() medoc!:Medoc;
+
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
 }
