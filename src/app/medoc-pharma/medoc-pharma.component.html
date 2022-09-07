@@ -1,76 +1,104 @@
 <section class="bg-white border-b py-8">
     <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-        Title
-      </h2>
+      
+        <form class="flex items-center mx-auto">   
+          <label for="simple-search" class="sr-only">Search medicaments</label>
+          <div class="relative w-full">
+              <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                  <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+              </div>
+              <input type="text" id="simple-search" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500" placeholder="Search medicaments" required="">
+          </div>
+          
+        </form>
+        <div class="container px-6 mx-auto pt-8 items-center">
+          <!--Left Col-->
+          <div class="w-full justify-center flex flex-wrap items-center">
+            <a class="rounded-lg py-0.5 px-2 ml-2 border-2 border-gray-700 text-gray-700 hover:border-green-500 hover:bg-green-500 hover:text-white transition ease-out duration-500"  href="#">MÉDICAMENTS</a>
+            <a class="rounded-lg py-0.5 px-2 ml-2 border-2 border-gray-700 text-gray-700 hover:border-green-500 hover:bg-green-500 hover:text-white transition ease-out duration-500"  href="#">SANTÉ</a>
+            <a class="rounded-lg py-0.5 px-2 ml-2 border-2 border-gray-700 text-gray-700 hover:border-green-500 hover:bg-green-500 hover:text-white transition ease-out duration-500"  href="#">PREMIER SOINS</a>
+          </div>
+
+           </div>    
+    
       <div class="w-full mb-4">
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
-      <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-          <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-            <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-              xGETTING STARTED
-            </p>
-            <div class="w-full font-bold text-xl text-gray-800 px-6">
-              Lorem ipsum dolor sit amet.
-            </div>
+      <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
+        <div class="flex-1 bg-white border-2 border-green-400 rounded-t rounded-b-none overflow-hidden shadow">
+          <img class="mx-auto" src="assets/img/IMAGE4.svg" alt="">
+          <div class="flex flex-wrap no-underline hover:no-underline">
+          
             <p class="text-gray-800 text-base px-6 mb-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
             </p>
-          </a>
-        </div>
-        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-          <div class="flex items-center justify-start">
-            <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-              Action
-            </button>
+              <span class="text-black ml-5 py-6">10000f</span>
+              <a href="#" class="mx-auto mr-5  gradient bg-orange-600 text-white font-bold rounded-md my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+
+                <button >
+                  voir
+                </button>
+              </a>
+
           </div>
         </div>
       </div>
-      <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-          <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-            <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-              xGETTING STARTED
-            </p>
-            <div class="w-full font-bold text-xl text-gray-800 px-6">
-              Lorem ipsum dolor sit amet.
-            </div>
+      <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
+        <div class="flex-1 bg-white border-2 border-green-400 rounded-t rounded-b-none overflow-hidden shadow">
+          <img class="mx-auto" src="assets/img/IMAGE3.svg" alt="">
+          <div class="flex flex-wrap no-underline hover:no-underline">
+           
             <p class="text-gray-800 text-base px-6 mb-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
             </p>
-          </a>
-        </div>
-        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-          <div class="flex items-center justify-center">
-            <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-              Action
-            </button>
+            <span class="text-black ml-5 py-6">2000f</span>
+            <a href="#"  class="mx-auto mr-5 gradient bg-orange-600 text-white font-bold rounded-md my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+
+              <button>
+                voir
+              </button>
+            </a>
           </div>
+          
         </div>
       </div>
-      <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-          <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-            <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-              xGETTING STARTED
-            </p>
-            <div class="w-full font-bold text-xl text-gray-800 px-6">
-              Lorem ipsum dolor sit amet.
-            </div>
+      <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
+        <div class="flex-1 bg-white border-2 border-green-400 rounded-t rounded-b-none overflow-hidden shadow">
+          <img class="mx-auto" src="assets/img/IMAGE2.svg" alt="">
+          <div class="flex flex-wrap no-underline hover:no-underline">
+          
             <p class="text-gray-800 text-base px-6 mb-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
             </p>
-          </a>
-        </div>
-        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-          <div class="flex items-center justify-end">
-            <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-              Action
-            </button>
+            <span class="text-black ml-5 py-6">5000f</span>
+            <a href="#"  class="mx-auto mr-5 gradient bg-orange-600 text-white font-bold rounded-md my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+
+              <button>
+                voir
+              </button>
+            </a>
           </div>
         </div>
       </div>
+      <div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink">
+        <div class="flex-1 bg-white border-2 border-green-400 rounded-t rounded-b-none overflow-hidden shadow">
+           <img class="mx-auto" src="assets/img/IMAGE1.svg" alt="">
+          <div class="flex flex-wrap no-underline hover:no-underline">
+            <p class="text-gray-800 text-base px-6 mb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+            </p>
+            <span class="text-black ml-5 py-6">3500f</span>
+            <a href="#" class="mx-auto mr-5 gradient bg-orange-600 text-white font-bold rounded-md my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+
+              <button >
+                voir
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-full justify-center flex flex-wrap items-center">
+      <a class="rounded-lg py-0.5 px-2 ml-2 border-2 border-gray-700 text-gray-700 hover:border-green-500 hover:bg-green-500 hover:text-white transition ease-out duration-500"  href="#">Voir plus</a>
     </div>
   </section>
