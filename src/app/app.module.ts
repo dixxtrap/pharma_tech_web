@@ -10,6 +10,7 @@ import { ButtonPharmaComponent } from './button-pharma/button-pharma.component';
 import { CarouselPharmaComponent } from './carousel-pharma/carousel-pharma.component';
 import { MedocPharmaComponent } from './medoc-pharma/medoc-pharma.component';
 import { GoogleMapsPharmaComponent } from './google-maps-pharma/google-maps-pharma.component';
+import { FooterPharmaComponent } from './footer-pharma/footer-pharma.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { GoogleMapsPharmaComponent } from './google-maps-pharma/google-maps-phar
     CarouselPharmaComponent,
     MedocPharmaComponent,
     GoogleMapsPharmaComponent,
+    FooterPharmaComponent,
 
   ],
   imports: [
