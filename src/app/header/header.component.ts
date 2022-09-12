@@ -9,10 +9,13 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   hamburgerOpen = false;
-
+  shoppingOpen = false;
   ngOnInit(): void {
   }
-  
+
+  openShopping(){
+    this.shoppingOpen = ! this.shoppingOpen;
+  }
   openHamburger(): void {
     this.hamburgerOpen = ! this.hamburgerOpen;
   }
