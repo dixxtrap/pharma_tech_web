@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigationEnd, Route } from '@angular/router';
 
 @Component({
   selector: 'app-home-page-pharma',
@@ -7,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePagePharmaComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
+      
   }
-
 }

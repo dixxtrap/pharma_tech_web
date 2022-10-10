@@ -8,9 +8,11 @@ import { InscriptionPharmaComponent } from './inscription-pharma/inscription-pha
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
-  { path: 'inscription' , component: InscriptionPharmaComponent},
-  { path: 'login' , component: LoginComponent },
+    
+    { path: 'inscription' , component: InscriptionPharmaComponent},
+    { path: 'login' , component: LoginComponent},
 
+    
 
 ];  
 
