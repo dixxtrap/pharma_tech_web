@@ -23,9 +23,10 @@ import { ListPanierComponent } from './components/list-panier/list-panier.compon
     HomePagePharmaRoutingModule
   ],
   exports: [
-    ListPanierComponent,
+
     MedocDetailPharmaComponent,
-    MedocPharmaComponent
+    MedocPharmaComponent,
+    ListPanierComponent
   ],
   bootstrap: []
 })

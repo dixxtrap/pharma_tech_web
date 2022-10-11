@@ -12,7 +12,6 @@ import { HomePagePharmaComponent } from './home-page-pharma/home-page-pharma.com
 import { LoginComponent } from './login/login.component';
 import { SearchPharmaComponent } from './search-pharma/search-pharma.component';
 import { CarouselPharmaComponent } from './carousel-pharma/carousel-pharma.component';
-import { RouterModule } from '@angular/router';
 import { HomePagePharmaModule } from './home-page-pharma/home-page-pharma.module';
 
 @NgModule({
@@ -26,6 +25,7 @@ import { HomePagePharmaModule } from './home-page-pharma/home-page-pharma.module
     CarouselPharmaComponent,
     GoogleMapsPharmaComponent,
     FooterPharmaComponent,
+    
   ],
   imports: [
     BrowserModule,
