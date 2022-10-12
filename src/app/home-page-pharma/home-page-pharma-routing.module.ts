@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ListPanierComponent } from './components/list-panier/list-panier.component';
+import { ListPanierComponent } from '../list-panier/list-panier.component';
 import { MedocDetailPharmaComponent } from './components/medoc-detail-pharma/medoc-detail-pharma.component';
 import { MedocPharmaComponent } from './components/medoc-pharma/medoc-pharma.component';
 import { HomePagePharmaComponent } from './home-page-pharma.component';
@@ -10,9 +10,7 @@ const routes: Routes = [
       children:
       [
         { path: 'medicaments' , component: MedocPharmaComponent  },
-        { path: 'medicaments/:id' , component: MedocDetailPharmaComponent}, 
-        { path: 'panier' , component: ListPanierComponent}, 
-        
+        { path: 'medicaments/:id' , component: MedocDetailPharmaComponent},         
       ]
     },
 { path: '',   redirectTo: '/home', pathMatch: 'full' },

@@ -7,14 +7,14 @@ import { Route, Router } from '@angular/router';
   styleUrls: ['./medoc-detail-pharma.component.css']
 })
 export class MedocDetailPharmaComponent implements OnInit {
-
-  constructor(private router: Router) { }
+ 
+  hamburgerOpen = false;
 
   ngOnInit(): void {
   }
   
-  return(){
-    this.router.navigate(['medicaments']);
+  openHamburger(): void {
+    this.hamburgerOpen = ! this.hamburgerOpen;
   }
 
 }

@@ -7,14 +7,13 @@ import { MedocPharmaComponent } from './components/medoc-pharma/medoc-pharma.com
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from '../app-routing.module';
 import { RouterModule } from '@angular/router';
-import { ListPanierComponent } from './components/list-panier/list-panier.component';
 
 
 @NgModule({
   declarations: [
     MedocDetailPharmaComponent,
     MedocPharmaComponent,
-    ListPanierComponent
+    
   ],
   imports: [
     CommonModule,
@@ -26,7 +25,6 @@ import { ListPanierComponent } from './components/list-panier/list-panier.compon
 
     MedocDetailPharmaComponent,
     MedocPharmaComponent,
-    ListPanierComponent
   ],
   bootstrap: []
 })

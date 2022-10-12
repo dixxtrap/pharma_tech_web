@@ -21,30 +21,35 @@
           </li>
         
           <li class="mr-4">
-            <a  routerLink="/login"  routerLinkActive="active" ariaCurrentWhenActive="page" data-popover-target="po-bottom" data-popover-placement="bottom" type="button" class="inline-block text-white hover:underline py-2 px-4" href="#">
-               Se connecter
+          <div class="t-tooltip inline-block">
+
+            <a  routerLink="/auth/login"  routerLinkActive="active" ariaCurrentWhenActive="page" type="button" class="text-white hover:underline py-2 px-4" href="#">
+              Se connecter
             
             </a>
-          <div data-popover id="po-bottom" role="tooltip" class="mx-auto inline-block absolute invisible z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
-            <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
-              <li>
-                <a routerLink="/inscription" class="block py-2 px-4 hover:bg-gray-100 hover:text-green-600 dark:hover:bg-gray-600 dark:hover:text-white">Creer un compte</a>
-              </li>
-              <li>
-                <a href="#" class="block py-2 px-4 hover:bg-gray-100 hover:text-green-600 dark:hover:bg-gray-600 dark:hover:text-white">Mon compte</a>
-              </li>
-              <li>
-                <div class="py-4 text-center">
-                <a href="#" class=" rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider  md:border-2 border-black hover:border-green-500 hover:bg-green-500 hover:text-white transition ease-out duration-200" href="#">DECONNEXION</a>
+            <div class="hidden  absolute -ml-6  z-10 w-44 t-box bg-white rounded-lg divide-gray-100 shadow dark:bg-gray-700">
+                <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
+                  <li>
+                    <a routerLink="/auth/inscription" class="block py-2 px-4 hover:bg-gray-100 hover:text-green-600 dark:hover:bg-gray-600 dark:hover:text-white">Creer un compte</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block py-2 px-4 hover:bg-gray-100 hover:text-green-600 dark:hover:bg-gray-600 dark:hover:text-white">Mon compte</a>
+                  </li>
+                  <li>
+                    <div class="py-4 text-center">
+                      <a href="#" class=" rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider  md:border-2 border-black hover:border-green-500 hover:bg-green-500 hover:text-white transition ease-out duration-200" href="#">DECONNEXION</a>
+                    </div>
+                  </li>
+                </ul>
               </div>
-              </li>
-            </ul>
-          </div>
-
+           </div>  
+          
           </li>
           <li class="mr-3">
-              <a  data-popover-target="popover-bottom" data-popover-placement="bottom" type="button" class="inline-block mx-auto lg:mx-0 hover:bg-green-700 text-white hover:text-white py-2 px-4" href="#">
-                  <div>
+            <div class="inline-block t-tooltip">
+            
+              <a type="button" class=" mx-auto lg:mx-0 hover:bg-green-700 text-white hover:text-white py-2 px-4" href="#">
+                <div>
                     <svg class="w-9 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
                     </svg>
@@ -55,37 +60,35 @@
                   </div>
 
                 </a>
-              <div data-popover id="popover-bottom" role="tooltip" class="inline-block absolute invisible z-10 w-64 text-sm font-light text-gray-500 bg-white rounded-lg border border-gray-200 shadow-sm opacity-0 transition-opacity duration-300 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
-                 
-                <div class=" relative">
-                  <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                     
+                <div class="hidden absolute z-10 w-50 mt-1 right-1 top-50 py-1 px-3  t-box bg-white rounded-lg border border-gray-200  divide-gray-100 shadow dark:bg-gray-700">
+                  <div class=" relative  rounded-lg divide-y">
+                    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                      
                       <tbody>
-                          <tr class="bg-white dark:bg-gray-800">
-                              <th scope="row" class="py-4 px-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                  Nicorette
-                              </th>
-                              <td class="py-4 px-4">
-                                  $2999
-                              </td>
-                          </tr>
-                        
-                      </tbody>
-                      <tfoot>
+                        <tr class="bg-white dark:bg-gray-800">
+                                <th scope="row" class="py-4 px-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    Nicorette
+                                  </th>
+                                <td class="py-4 px-6">
+                                    $2999
+                                  </td>
+                            </tr>
+                          
+                        </tbody>
+                        <tfoot>
                           <tr class="font-semibold text-gray-900 bg-gray-100 dark:text-white">
-                              <th scope="row" class="py-2 px-4 text-base">Total</th>
-                              <td class="py-2 px-4 text-green-600 font-bold">21,000</td>
-                          </tr>
-                      </tfoot>
-                  </table>
-                </div>
-
-               
-                  <div class="py-4 text-center">
-                     <a href="#" class=" rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider  md:border-2 border-black hover:border-green-500 hover:bg-green-500 hover:text-white transition ease-out duration-200" href="#" [routerLink]="['panier']" routerLinkActive="router-link-active">Voir mon panier</a>
+                                <th scope="row" class="py-2 px-4 text-base">Total</th>
+                                <td class="py-2 px-4 text-green-600 font-bold">21,000</td>
+                            </tr>
+                        </tfoot>
+                    </table>
                   </div>
-                 <div data-popper-arrow></div>
-              </div>
+                  <div class="py-4 text-center">
+                    <a href="#" class=" rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider  md:border-2 border-black hover:border-green-500 hover:bg-green-500 hover:text-white transition ease-out duration-200" href="#" [routerLink]="['/panier/list-panier']" routerLinkActive="router-link-active">Voir mon panier</a>
+                 </div>
+                </div>
+            </div>
+               
 
           </li>
         </ul>

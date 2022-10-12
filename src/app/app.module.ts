@@ -13,6 +13,7 @@ import { LoginComponent } from './login/login.component';
 import { SearchPharmaComponent } from './search-pharma/search-pharma.component';
 import { CarouselPharmaComponent } from './carousel-pharma/carousel-pharma.component';
 import { HomePagePharmaModule } from './home-page-pharma/home-page-pharma.module';
+import { ListPanierComponent } from './list-panier/list-panier.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,7 @@ import { HomePagePharmaModule } from './home-page-pharma/home-page-pharma.module
     CarouselPharmaComponent,
     GoogleMapsPharmaComponent,
     FooterPharmaComponent,
-    
+    ListPanierComponent
   ],
   imports: [
     BrowserModule,

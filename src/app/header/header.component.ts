@@ -14,9 +14,6 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
   constructor(private router: Router) {}
-  onContinue() {
-    this.router.navigate(['/login']);
-  }
 
   openShopping(){
     this.shoppingOpen = ! this.shoppingOpen;
