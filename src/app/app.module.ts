@@ -14,7 +14,19 @@ import { SearchPharmaComponent } from './search-pharma/search-pharma.component';
 import { CarouselPharmaComponent } from './carousel-pharma/carousel-pharma.component';
 import { HomePagePharmaModule } from './home-page-pharma/home-page-pharma.module';
 import { ListPanierComponent } from './list-panier/list-panier.component';
-
+import {HttpClientModule} from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
+import { AddMComponent } from './add-m/add-m.component';
+import { GoogleMapsModule } from '@angular/google-maps';
+import { ListMedocComponent } from './list-medoc/list-medoc.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule } from '@angular/material/button';
+import {MatTableModule} from '@angular/material/table';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatIconModule} from '@angular/material/icon';
+import { ShowImageComponent } from './show-image/show-image.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,13 +38,28 @@ import { ListPanierComponent } from './list-panier/list-panier.component';
     CarouselPharmaComponent,
     GoogleMapsPharmaComponent,
     FooterPharmaComponent,
-    ListPanierComponent
+    ListPanierComponent,
+    AddMComponent,
+    ListMedocComponent,
+    ShowImageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HomePagePharmaRoutingModule,
-    HomePagePharmaModule
+    HomePagePharmaModule,
+    HttpClientModule,
+    FormsModule,
+    RouterModule,
+    CommonModule,
+    GoogleMapsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatTableModule,
+    MatDialogModule,
+    MatIconModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
